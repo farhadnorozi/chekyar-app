@@ -13,6 +13,9 @@ android.minapi = 23
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
 
+# (bool) Indicate if you accept the Android SDK License
+android.accept_sdk_license = True
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
